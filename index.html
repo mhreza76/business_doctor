@@ -13,14 +13,16 @@
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
 
 </head>
 
 <body>
-
     <!--====== PRELOADER PART START ======-->
-
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="loader">
             <div class="ytp-spinner">
                 <div class="ytp-spinner-container">
@@ -35,21 +37,112 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!--====== PRELOADER PART ENDS ======-->
 
     <!--====== HEADER PART START ======-->
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">DOCTOR</a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" style="background-color: orangered; color: white;">
+                    <span class="navbar-toggler-icon">  <i class="fas fa-bars pt-1" style="color:#fff;"></i></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item"><a class="nav-link" href="#" style="color: orangered;">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Service</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    </ul>
+                    </dir>
+                    <button class="btn btn-danger navbar-btn dwn">Download</button>
+                </div>
+        </nav>
 
-
-
+        <!-- <div class="container">
+            <h2>Navbar Button</h2>
+            <p>Use the navbar-btn class on a button to vertically align (same padding as links) it inside the navbar.</p>
+        </div> -->
+    </header>
     <!--====== HEADER PART ENDS ======-->
 
     <!--====== ABOUT PART START ======-->
+    <div class="container-fluid mt-5 " id="banner1">
+        <div class="row " style="border: none;">
+            <div class=" col-lg-6">
+                <div class="card card border-0 pr-lg-5 pt-5 ml-5">
+                    <div class="card-body text-justify pl-5 ml-5">
+                        <h1 class="pl-5"><span style="font-weight: bolder; color: black; ">Your</span><span style="color: orangered " class="pl-3 font-weight-normal ">Consultancy</span></h1>
 
+                        <h1 class="pl-5">
+                            <span style="font-weight: normal; color: black; ">Partner for </span>
 
+                            <span style="font-weight: bolder; color: black; ">Growth.</span>
 
+                        </h1>
+                        <p class="ml-5 mt-5">Phasellu vel elit efficitur, gravida libero sit amret, scelerisque tortor arcu, commodo sit amet nulla sed.</p>
+                        <!-- <div class="ml-5 banner2 mt-5">
+                            <p class="pb-5 mb-5">Phasellu vel elit efficitur, gravida libero sit amret, scelerisque tortor arcu, commodo sit amet nulla sed.</p>
+                        </div> -->
+
+                        <div class="row pt-5 pl-5 ">
+                            <div class="col-8">username@yourdomain.com</div>
+                            <div class="col-4">
+                                <button class="btn btn-danger navbar-btn" style="border-radius: 20px;">SIGN UP</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 ">
+                <div class="card card border-0 pl-0 ml-0">
+                    <div class="card-body ">
+                        <img src="assets/images/hero-image.png " alt=" ">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="about1 container text-lg-center">
+        <div class="font-weight-bold" style="color: orangered;">WELCOME</div>
+        <div>
+            <h3><span>Our 10 years working experiance to</span> <span class="font-weight-normal">take care of your</span></h3>
+            <h3 class="font-weight-normal">business goal.</h3>
+        </div>
+
+        <img src="assets/images/about.png" class="mt-5" alt="#">
+        <div class="mt-5 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti fuga assumenda harum mollitia architecto nemo, possimus illum accusamus error excepturi. Alias iusto esse, porro suscipit assumenda sint explicabo sunt non. </div>
+
+        <div class="row">
+            <div class="col-4">
+                <span class="count font-weight-bold">201</span>
+                <div>Clients</div>
+            </div>
+
+            <div class="col-4">
+                <span class="count">40%</span>
+                <div>Satisfaction</div>
+            </div>
+
+            <div class="col-4">
+                <span class="count">498</span>
+                <div>Projects</div>
+            </div>
+        </div>
+
+    </div>
     <!--====== ABOUT PART ENDS ======-->
+
 
     <!--====== OUR SERVICE PART START ======-->
 
@@ -95,6 +188,10 @@
     <!--====== STATIC JS ASSET ENDS ======-->
 
 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
 </body>
 
 </html>
