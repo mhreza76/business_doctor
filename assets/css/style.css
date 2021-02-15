@@ -2440,7 +2440,13 @@ p {
     width: 50px;
     text-align: center;
     border-radius: 25px;
-    font-size: larger;
+}
+
+.social {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    /* border-radius: 25px; */
 }
 
 .txt-dark {
