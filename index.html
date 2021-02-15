@@ -18,6 +18,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+
+
+
 </head>
 
 <body>
@@ -60,7 +66,7 @@
                         <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                     </ul>
-                    </dir>
+
                     <button class="btn btn-danger navbar-btn dwn">Download</button>
                 </div>
         </nav>
@@ -112,8 +118,11 @@
         </div>
 
     </div>
+    <!--====== ABOUT PART ENDS ======-->
 
-    <div class="about1 container text-lg-center">
+
+    <!--====== OUR SERVICE PART START ======-->
+    <div class=" container text-lg-center" id="service1">
         <div class="font-weight-bold" style="color: orangered;">WELCOME</div>
         <div>
             <h3><span>Our 10 years working experiance to</span> <span class="font-weight-normal">take care of your</span></h3>
@@ -123,54 +132,223 @@
         <img src="assets/images/about.png" class="mt-5" alt="#">
         <div class="mt-5 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti fuga assumenda harum mollitia architecto nemo, possimus illum accusamus error excepturi. Alias iusto esse, porro suscipit assumenda sint explicabo sunt non. </div>
 
-        <div class="row">
-            <div class="col-4">
-                <span class="count font-weight-bold">201</span>
-                <div>Clients</div>
-            </div>
 
-            <div class="col-4">
-                <span class="count">40%</span>
-                <div>Satisfaction</div>
-            </div>
+        <div class="middle">
+            <div class="counting-sec">
+                <div class="inner-width p-5">
+                    <div class="col">
+                        <div class="num">
+                            <h2>183</h2>
+                        </div>
+                        Clients
+                    </div>
 
-            <div class="col-4">
-                <span class="count">498</span>
-                <div>Projects</div>
+                    <div class="col">
+                        <div class="count">
+                        </div>
+                        Satisfaction
+                    </div>
+
+                    <div class="col">
+                        <div class="num">
+                            <h2>452</h2>
+                        </div>
+                        Projects
+                    </div>
+                </div>
             </div>
         </div>
-
     </div>
-    <!--====== ABOUT PART ENDS ======-->
-
-
-    <!--====== OUR SERVICE PART START ======-->
-
-
     <!--====== OUR SERVICE PART ENDS ======-->
 
 
     <!--====== PRICING PART START ======-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>You are using <span style="color: orangered;">Free</span> Lite Version</h1>
+                <p style="font-size: large;" class="pb-4">Please, purchase full version to get all sections, pages and features</p>
+                <button class="btn navbar-btn font-weight-bold" style="background-color: orangered; color: white; border-radius: 40px;">Purchase Now</button>
+            </div>
+        </div>
 
+        <div class="row price">
+            <div class="col-12 text-center">
+                <div class="font-weight-bold" style="color: orangered;">PRICING PLANS</div>
+                <h4 class="pb-1"> <span style="font-size: larger; font-weight: bolder; ">Providing Best Pricing</span> <span style="font-weight:bold;">For Your</span></h4>
+                <p style="font-size: x-large; font-weight:bold; color: black;">Business</p>
 
+            </div>
+        </div>
+
+        <div class="row pb-5 price1 text-justify-center">
+            <div class="col-lg-4 col-md-6 text-center  pb-0 pt-3 px-3 agile-pricegrid">
+                <div class="bg-price py-sm-3 text-center">
+                    <h4>50/m. <span style="color: orangered;">$</span></h4>
+                    <span class="mx-auto my-2"></span>
+                </div>
+                <div class="p-3">
+                    <h5 class="">
+                        <span class="px-3 py-2 badge-pill" style="background-color:  #4da6ff
+                        ; color: white; font-weight: normal; text-align: center;;">20% off</span> <span>Basic</span></h5>
+                </div>
+
+                <ul class="list-group-flush mt-5">
+                    <li class="list-group-flush p-2">Full Access</li>
+                    <li class="list-group-flush p-2">Unlimited Bandwidth</li>
+                    <li class="list-group-flush p-2">50gb Space</li>
+                    <li class="list-group-flush p-2">1 Month Support</li>
+                </ul>
+                <div class="py-3 px-2 mt-3">
+                    <button type="button" class=" btn  btn-lg  text-md-center" data-toggle="modal" aria-pressed="false" data-target="#exampleModal" style="background-color: white;">SIGN UP NOW!</button>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 text-center  pb-0 pt-3 px-3 agile-pricegrid">
+                <div class="bg-price py-sm-3 text-center">
+                    <h4>69/m. <span style="color: orangered;">$</span></h4>
+                    <span class="mx-auto my-2"></span>
+                </div>
+                <div class="p-3">
+                    <h5 class="">
+                        <span class="px-3 py-2 badge-pill" style="background-color:  orangered
+                        ; color: white; font-weight: normal; text-align: center;;">Special</span> <span>Standard</span></h5>
+                </div>
+
+                <ul class="list-group-flush mt-5">
+                    <li class="list-group-flush p-2">Full Access</li>
+                    <li class="list-group-flush p-2">Unlimited Bandwidth</li>
+                    <li class="list-group-flush p-2">50gb Space</li>
+                    <li class="list-group-flush p-2">1 Month Support</li>
+                </ul>
+                <div class="py-3 px-2 mt-3">
+                    <button type="button" class="my-auto text-white btn  btn-lg  text-md-center px-3 py-2 badge-pill" data-toggle="modal" aria-pressed="false" data-target="#exampleModal" style="background-color: orangered;">SIGN UP NOW!</button>
+
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 text-center  pb-0 pt-3 px-3 agile-pricegrid">
+                <div class="bg-price py-sm-3 text-center">
+                    <h4>99/m. <span style="color: orangered;">$</span></h4>
+                    <span class="mx-auto my-2"></span>
+                </div>
+                <div class="p-3">
+                    <h5 class="">
+                        <span class="px-3 py-2 badge-pill" style="background-color:  rgb(52, 187, 52)
+                        ; color: white; font-weight: normal; text-align: center;">New</span> <span>Premium</span></h5>
+                </div>
+
+                <ul class="list-group-flush mt-5">
+                    <li class="list-group-flush p-2">Full Access</li>
+                    <li class="list-group-flush p-2">Unlimited Bandwidth</li>
+                    <li class="list-group-flush p-2">50gb Space</li>
+                    <li class="list-group-flush p-2">1 Month Support</li>
+                </ul>
+                <div class="py-3 px-2 mt-3">
+                    <button type="button" class="btn  btn-lg  text-md-center" data-toggle="modal" aria-pressed="false" data-target="#exampleModal" style="background-color: white;">SIGN UP NOW!</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--====== PRICING PART ENDS ======-->
 
 
     <!--====== BRAND PART START ======-->
-
-
-
+    <div class="container-fluid mt-5 mb-5 px-5 ">
+        <div class="row text-center marginex">
+            <div class="col">
+                <img src="/assets/images/brand-1.png" alt="">
+            </div>
+            <div class="col">
+                <img src="/assets/images/brand-2.png" alt="">
+            </div>
+            <div class="col">
+                <img src="/assets/images/brand-3.png" alt="">
+            </div>
+            <div class="col">
+                <img src="/assets/images/brand-4.png" alt="">
+            </div>
+            <div class="col">
+                <img src="/assets/images/brand-5.png" alt="">
+            </div>
+        </div>
+    </div>
     <!--====== BRAND PART ENDS ======-->
 
+
     <!--====== BLOG PART START ======-->
+    <div class=" container-fluid pt-5 ">
 
-
-
+        <div class="row">
+            <div class="col-12 text-center pb-5">
+                <div class="font-weight-bold pb-1" style="color: orangered;">OUR BLOG</div>
+                <p class="pb-1" style="color: black; font-size: x-large;"><span style="font-weight: 900;">Latest</span> <span style="font-weight: 500;">News.</span></p>
+            </div>
+        </div>
+        <div class="card-deck marginex">
+            <div class="card text-left border-0">
+                <img class="card-img-top" src="assets/images/news-1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Nulla eget urna at tortor turpi feugiat tristique in sit.</h5>
+                    <div class="d-flex">
+                        <img class="rounded-circle" src="/assets/images/author-1.jpg" alt="">
+                        <div class="pl-2 pt-2">
+                            <div class="d-block">
+                                <p class="card-text" style="color: orangered;">Posted by
+                                    <p>
+                            </div>
+                            <div class="d-block">
+                                <p class="card-text">Isabela Mereira</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0">
+                <img class="card-img-top" src="assets/images/news-2.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Nulla eget urna at tortor turpi feugiat tristique in sit.</h5>
+                    <div class="d-flex">
+                        <img class="rounded-circle" src="/assets/images/author-2.jpg" alt="">
+                        <div class="pl-2 pt-2">
+                            <div class="d-block">
+                                <p class="card-text" style="color: orangered;">Posted by
+                                    <p>
+                            </div>
+                            <div class="d-block">
+                                <p class="card-text">Elon Musk</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card justify-content-lg-start border-0">
+                <img class="card-img-top" src="assets/images/news-3.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Nulla eget urna at tortor turpi feugiat tristique in sit.</h5>
+                    <div class="d-flex">
+                        <img class="rounded-circle" src="/assets/images/author-3.jpg" alt="">
+                        <div class="pl-2 pt-2">
+                            <div class="d-block">
+                                <p class="card-text" style="color: orangered;">Posted by
+                                    <p>
+                            </div>
+                            <div class="d-block">
+                                <p class="card-text">Fiona</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--====== BLOG PART ENDS ======-->
 
-    <!--====== CONTACT PART START ======-->
 
+    <!--====== CONTACT PART START ======-->
 
 
     <!--====== CONTACT PART ENDS ======-->
@@ -182,12 +360,27 @@
     <!--====== FOOTER PART ENDS ======-->
 
     <!--====== STATIC JS ASSET STARTS ======-->
+    <script type="text/javascript">
+        $(".num").counterUp({
+            delay: 10,
+            time: 1000
+        });
 
+        $(document).ready(function() {
+            var count = 0;
+            var counter = setInterval(function() {
+                if (count < 100) {
+                    $('.count').text(count + '%');
+                    count++
+                } else {
+                    clearInterval(counter);
+                }
+            }, 20)
+        })
+    </script>
 
 
     <!--====== STATIC JS ASSET ENDS ======-->
-
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
