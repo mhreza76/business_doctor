@@ -2564,7 +2564,7 @@ p {
        11.FOOTER css 
 ===========================*/
 
-.social-icon li {
+.social-icon ul {
     list-style-type: none;
 }
 
