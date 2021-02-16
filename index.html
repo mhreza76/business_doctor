@@ -16,14 +16,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
 
-
+    <!-- <script src="bootstrap-4.0.0-dist/js/scrollreveal.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/2.0.0/scrollReveal.min.js" integrity="sha512-L56hqljAjZhvB9f32klSO2ltXUlKbaOY2KdlNLOdzxJtl0jNvNQFKTP3u0MIFUP3mXTzYdy7KCaUSvi7QBWxNg==" crossorigin="anonymous"></script> -->
 </head>
 
 <body>
@@ -84,20 +86,20 @@
             <div class=" col">
                 <div class="card border-0 pr-lg-5 pt-5">
                     <div class="card-body text-justify">
-                        <h1 class="pl-5"><span style="font-weight: bolder; color: black; ">Your</span><span style="color: orangered " class="pl-3 font-weight-normal ">Consultancy</span></h1>
+                        <h1 class="pl-5 ani"><span style="font-weight: bolder; color: black; ">Your</span><span style="color: orangered " class="pl-3 font-weight-normal ">Consultancy</span></h1>
 
-                        <h1 class="pl-5">
+                        <h1 class="pl-5 ani">
                             <span style="font-weight: normal; color: black; ">Partner for </span>
 
                             <span style="font-weight: bolder; color: black; ">Growth.</span>
 
                         </h1>
-                        <p class="ml-5 mt-5">Phasellu vel elit efficitur, gravida libero sit amret, scelerisque tortor arcu, commodo sit amet nulla sed.</p>
+                        <p class="ml-5 mt-5 ani">Phasellu vel elit efficitur, gravida libero sit amret, scelerisque tortor arcu, commodo sit amet nulla sed.</p>
                         <!-- <div class="ml-5 banner2 mt-5">
                             <p class="pb-5 mb-5">Phasellu vel elit efficitur, gravida libero sit amret, scelerisque tortor arcu, commodo sit amet nulla sed.</p>
                         </div> -->
 
-                        <div class="row pt-5 pl-5 ">
+                        <div class="row pt-5 pl-5 ani sign-up-ani">
                             <div class="col">
                                 <input type="email" placeholder="username@yourdomain.com">
                             </div>
@@ -110,7 +112,7 @@
 
             </div>
 
-            <div class="col ">
+            <div class="col" data-aos="flip-left">
                 <div class="card card border-0 pl-0 ml-0">
                     <div class="card-body ">
                         <img src="assets/images/hero-image.png " alt=" ">
@@ -124,7 +126,7 @@
 
 
     <!--====== OUR SERVICE PART START ======-->
-    <div class=" container text-lg-center" id="service1">
+    <div class=" container text-lg-center ani mt-5" id="service1 ">
         <div class="font-weight-bold" style="color: orangered;">WELCOME</div>
         <div>
             <h3><span>Our 10 years working experiance to</span> <span class="font-weight-normal">take care of your</span></h3>
@@ -132,7 +134,9 @@
         </div>
 
         <img src="assets/images/about.png" class="mt-5" alt="#">
-        <div class="mt-5 mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti fuga assumenda harum mollitia architecto nemo, possimus illum accusamus error excepturi. Alias iusto esse, porro suscipit assumenda sint explicabo sunt non. </div>
+        <div class="mt-5 mb-5">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti fuga assumenda harum mollitia architecto nemo, possimus illum accusamus error excepturi. Alias iusto esse, porro suscipit assumenda sint explicabo sunt non.</p>
+        </div>
 
 
         <div class="middle">
@@ -165,7 +169,7 @@
 
 
     <!--====== PRICING PART START ======-->
-    <div class="container">
+    <div class="container ani">
         <div class="row">
             <div class="col-12 text-center">
                 <h1>You are using <span style="color: orangered;">Free</span> Lite Version</h1>
@@ -175,7 +179,7 @@
         </div>
 
         <div class="row price">
-            <div class="col-12 text-center">
+            <div class="col-12 text-center ani">
                 <div class="font-weight-bold" style="color: orangered;">PRICING PLANS</div>
                 <h4 class="pb-1"> <span style="font-size: larger; font-weight: bolder; ">Providing Best Pricing</span> <span style="font-weight:bold;">For Your</span></h4>
                 <p style="font-size: x-large; font-weight:bold; color: black;">Business</p>
@@ -259,7 +263,7 @@
 
 
     <!--====== BRAND PART START ======-->
-    <div class="container-fluid mt-5 mb-5 px-5 ">
+    <div class="container-fluid mt-5 mb-5 px-5 ani">
         <div class="row text-center marginex">
             <div class="col">
                 <img src="/assets/images/brand-1.png" alt="">
@@ -282,7 +286,7 @@
 
 
     <!--====== BLOG PART START ======-->
-    <div class=" container-fluid pt-5 ">
+    <div class=" container-fluid pt-5 ani">
 
         <div class="row">
             <div class="col-12 text-center pb-5">
@@ -351,7 +355,7 @@
 
 
     <!--====== CONTACT PART START ======-->
-    <div class=" container-fluid pt-5 ">
+    <div class=" container-fluid pt-5 ani">
 
         <div class="row mt-5">
             <div class="col-12 text-center pb-5">
@@ -421,7 +425,7 @@
     <!--====== CONTACT PART ENDS ======-->
 
     <!--====== FOOTER PART START ======-->
-    <div class=" container-fluid pt-5 ">
+    <div class=" container-fluid pt-5 ani">
         <div class="row marginex pb-5 pl-5 pr-5 txt-dark mt-2">
             <div class="col">
                 <p class="pb-3" style="color: #1D94F9; font-weight: 500;font-size: large;">DOCTOR</p>
@@ -478,7 +482,7 @@
 
         </div>
         <div class="copy marginex pb-5 pl-5 pr-5 mb-4 text-center">
-            <p>&copy; 2020 Crafted by <span style="color: orangered;">Shadhin Lab</span> All Rights Reserved.</p>
+            <p>&copy; 2020 Crafted by <a href="#" style="color: orangered;">Shadhin Lab</a> All Rights Reserved.</p>
         </div>
 
     </div>
@@ -487,6 +491,16 @@
     <!--====== FOOTER PART ENDS ======-->
 
     <!--====== STATIC JS ASSET STARTS ======-->
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000
+        });
+    </script>
+
+
     <script type="text/javascript">
         $(".num").counterUp({
             delay: 10,
@@ -504,14 +518,26 @@
                 }
             }, 20)
         })
+
+        window.sr = ScrollReveal();
+        sr.reval('.container', {
+            duration: 1000
+        });
+        sr.reval('.container-fluid', {
+            duration: 1000
+        });
+        sr.reval('.col', {
+            duration: 1000
+        });
     </script>
 
 
     <!--====== STATIC JS ASSET ENDS ======-->
-
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <script src="/assets/js/app.js"></script>
 </body>
 
 </html>
