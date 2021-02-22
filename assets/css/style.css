@@ -1083,8 +1083,10 @@ p {
 }
 
 .header-hero-content .header-singup .main-btn {
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
     top: 3px;
+    /* margin-left: -110px; */
     right: 3px;
     height: 64px;
     line-height: 60px;
@@ -1121,29 +1123,6 @@ p {
 /*===========================
         03.ABOUT css 
 ===========================*/
-
-#banner1 {
-    background-image: url("/assets/images/page-banner-1.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-/* .middle {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    transform: translateY(-50%);
-} */
-
-
-/* .banner2 {
-    background-image: url("/assets/images/page-banner-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 .about-title .welcome {
     font-size: 18px;
@@ -2075,10 +2054,6 @@ p {
     margin-right: 5%;
 }
 
-.price1 {
-    margin-top: 50px;
-}
-
 .single-pricing {
     padding: 65px 50px 70px;
 }
@@ -2563,10 +2538,6 @@ p {
 /*===========================
        11.FOOTER css 
 ===========================*/
-
-.social-icon ul {
-    list-style-type: none;
-}
 
 .footer-about .text {
     padding-top: 25px;

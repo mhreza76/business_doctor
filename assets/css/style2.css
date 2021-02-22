@@ -1,0 +1,42 @@
+.main-body {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#banner1 {
+    background-image: url("/assets/images/page-banner-1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pri-border-bottom {
+    border-bottom: 1px solid #dedede4f;
+    padding-bottom: 50px;
+}
+
+#footer1 {
+    background-image: url("/assets/images/footer-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    #footer1 {
+        text-align: center;
+        align-items: center;
+    }
+    #footer1 .col-sm-12 {
+        padding-bottom: 50px;
+    }
+}
+
+
+/* .hero-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 47%;
+    height: 100%;
+} */
