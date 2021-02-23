@@ -23,6 +23,9 @@
 }
 
 @media (max-width: 767px) {
+    .counter {
+        text-align: center;
+    }
     #footer1 {
         text-align: center;
         align-items: center;

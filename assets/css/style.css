@@ -2539,6 +2539,10 @@ p {
        11.FOOTER css 
 ===========================*/
 
+.social-icon ul {
+    list-style-type: none;
+}
+
 .footer-about .text {
     padding-top: 25px;
     font-size: 16px;
@@ -2631,13 +2635,27 @@ p {
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-    display: none;
+    /* display: none; */
 }
 
 .back-to-top:hover {
     color: #fff;
     background-color: #f14836;
 }
+
+
+/* .float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 40px;
+    right: 40px;
+    background-color: orangered;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+} */
 
 
 /*===========================
