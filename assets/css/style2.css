@@ -23,8 +23,31 @@
 }
 
 @media (max-width: 767px) {
-    .counter {
-        text-align: center;
+    .min-count div {
+        margin: 0 auto;
+    }
+    .blog-author {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .res-contact {
+        width: 80%;
+        margin: auto;
+    }
+    .contact-title {
+        width: 80%;
+        margin: auto;
+    }
+    .res-icon {
+        padding-bottom: 10px;
+    }
+    .res-icon ul {
+        width: 70%;
+        margin: auto;
+    }
+    .single-contact-info {
+        align-items: center;
+        padding-top: 20px;
     }
     #footer1 {
         text-align: center;
