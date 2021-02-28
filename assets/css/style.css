@@ -1096,7 +1096,7 @@ p {
     width: 170px;
     position: relative;
     top: 3px;
-    margin-left: -80px;
+    margin-left: -82px;
     right: 3px;
     height: 64px;
     line-height: 60px;
@@ -2410,7 +2410,7 @@ p {
 .single-blog .blog-content .blog-author .author-content .sub-title {
     font-size: 14px;
     color: #f14836;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .single-blog .blog-content .blog-author .author-content .text {
